@@ -26,7 +26,7 @@ header {
   align-items: center;
   text-align: center;
   padding: 20px;
-  width: 60%;
+  width: 100%;
 }
 
 nav {
@@ -36,12 +36,13 @@ nav {
 }
 
 nav ul {
-  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
   padding: 0;
   margin: 0;
-  display: flex; 
-  justify-content: space-evenly; 
-  width: 100%; 
+  list-style: none;
 }
 
 
@@ -58,6 +59,7 @@ nav ul li a:hover {
 footer {
   font-family: "Helvetica Neue", Helvetica;
   font-size: 10px;
+  text-align: center;
   line-height: 1.6;
   color: #808;
   margin: 20px;
