@@ -54,3 +54,11 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
+footer {
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 10px;
+  line-height: 1.6;
+  color: #808;
+  margin: 20px;
+  
