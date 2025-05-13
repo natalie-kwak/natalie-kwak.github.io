@@ -37,7 +37,7 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly !important;
     width: 100%
 }
 
