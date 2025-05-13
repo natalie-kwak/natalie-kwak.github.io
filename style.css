@@ -5,3 +5,9 @@ body {
   color: #000;
   margin: 20px;
 }
+#site-title {
+  text-align: center;      
+  margin-top: 50px;        
+  margin-bottom: 20px;     
+  color: #222;           
+}
