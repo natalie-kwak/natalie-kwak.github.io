@@ -58,7 +58,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 700px;
+  width: 1000px;
   gap: 50px;
   margin: 40px auto;
 }
@@ -67,8 +67,8 @@ nav ul li a:hover {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 50px;
-  width: 700 px;
-  margin: 40 px auto;
+  width: 1000px;
+  margin: 40px auto;
 }
 
 footer {
