@@ -63,12 +63,17 @@ nav ul li a:hover {
   margin: 40px auto;
 }
   
-.image-grid img {
+.image-grid {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 50px;
   width: 1000px;
   margin: 40px auto;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
 }
 
 footer {
