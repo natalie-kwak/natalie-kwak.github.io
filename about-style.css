@@ -61,6 +61,10 @@ nav ul li a:hover {
   height: auto;
 }
 
+.small-text-container {
+  font-size: 15px;
+}
+
 footer {
   font-family: "Helvetica Neue", Helvetica;
   font-size: 12px;
