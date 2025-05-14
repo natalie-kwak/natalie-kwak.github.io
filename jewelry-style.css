@@ -65,7 +65,7 @@ nav ul li a:hover {
   
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(10,1fr);
+  grid-template-columns: repeat(2,10fr);
   gap: 50px;
   width: 100%;
   margin: 40px auto;
