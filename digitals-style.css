@@ -1,0 +1,86 @@
+body {
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 30px;
+  line-height: 1.6;
+  color: #000;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 60%
+}
+#site-title {
+  text-align: center; 
+  font-size: 50px;
+  margin-top: 20px;        
+  margin-bottom: 20px;     
+  color: #000;           
+}
+header {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex: 1; 
+  justify-content: center; 
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.photo-column img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+  gap: 50px;
+  margin: 40px auto;
+}
+  
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 50px;
+  width: 900px;
+  margin: 40px auto;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.6;
+  color: #D3D3D3;
+  margin: 20px;
+}
