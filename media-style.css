@@ -81,6 +81,7 @@ nav ul li a:hover {
   height: auto;
   display: block;
   transition: filter 0.3s ease;
+  border-radius: 0;
 }
 
 .image-wrapper:hover img {
@@ -95,10 +96,14 @@ nav ul li a:hover {
   font-size: 1.2rem;
   background: rgba(0, 0, 0, 0.5);
   color: white;
-  padding: 8px 16px;
-  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
   pointer-events: none;
   text-align: center;
+}
+
+.image-wrapper:hover .caption {
+  opacity: 1;
 }
 
 @media (max-width: 600px) {
