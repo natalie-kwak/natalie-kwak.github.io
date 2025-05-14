@@ -54,17 +54,55 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-.grid-1x2 {
+.image-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50px;
+  gap: 20px;
   width: 100%;
-  margin: 40px auto;
+  margin: 0 auto;
 }
 
-.grid-1x2 img {
+.image-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-wrapper img {
   width: 100%;
   height: auto;
+  display: block;
+  transition: filter 0.3s ease;
+}
+
+.image-wrapper:hover img {
+  filter: brightness(60%);
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  pointer-events: none;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 footer {
