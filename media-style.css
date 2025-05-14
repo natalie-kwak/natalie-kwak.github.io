@@ -75,7 +75,9 @@ nav ul li a:hover {
 }
 
 .image-wrapper img {
-  width: 100%;
+  max-width: 100%;
+  width: 100%
+  object-fit: cover;
   height: auto;
   display: block;
   transition: filter 0.3s ease;
