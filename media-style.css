@@ -100,6 +100,7 @@ nav ul li a:hover {
   transition: opacity 0.3s ease;
   pointer-events: none;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .image-wrapper:hover .caption {
