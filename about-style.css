@@ -69,7 +69,7 @@ nav ul li a:hover {
   color: green;
   font-size: 20px;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .external-link:hover {
