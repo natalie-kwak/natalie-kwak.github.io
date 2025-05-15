@@ -55,13 +55,13 @@ nav ul li a:hover {
 }
 
 .external-link {
-  color: black;
+  color: green;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .external-link:hover {
-  color: green;
+  background-color: lightgray;
 }
 
 footer {
