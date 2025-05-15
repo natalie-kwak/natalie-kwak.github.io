@@ -67,6 +67,7 @@ nav ul li a:hover {
 
 .external-link:hover {
   background-color: lightgray;
+  opacity: 50%;
 }
 
 footer {
