@@ -75,6 +75,7 @@ nav ul li a:hover {
 .external-link:hover {
   background-color: rgba(0, 0, 0, 0.05);
   color: green;
+}
 
 footer {
   font-family: "Helvetica Neue", Helvetica;
