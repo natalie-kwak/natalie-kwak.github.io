@@ -67,6 +67,7 @@ nav ul li a:hover {
 
 .external-link:hover {
   background-color: rgba(0, 0, 0, 0.2);
+  color: green;
 }
 
 footer {
